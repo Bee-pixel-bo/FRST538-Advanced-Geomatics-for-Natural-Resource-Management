@@ -1,8 +1,14 @@
-book_filename: "open-geomatics-community-of-practice"
-chapter_name: "Lab: "
-repo: https://github.com/ubc-geomatics-community-of-practice/FRST538-Advanced-Geomatics-for-Natural-Resource-Management
-output_dir: docs
-clean: [book.bib, bookdown.bbl, packages.bib]
-bibliography: book.bib
-delete_merged_file: TRUE
-link-citations: true
+output_dir: "docs"
+delete_merged_file: true
+
+rmd_files:
+  - index.Rmd
+  - 01-Exploring-Spatial-Data.Rmd
+  - 02-GNSS-Data-Collection.Rmd
+  - 03-Cartographic-Modelling-Forest-Inventory.Rmd
+  - 04-Remote-Sensing-Image-Analysis.Rmd
+  - 05-Lidar-for-Forest-Management.Rmd
+  - 06-Terrain-and-Riparian-Area-Management.Rmd
+  - 07-Time-Series-Image-Analysis.Rmd
+  - 08-Suitability-Overlay-Analysis.Rmd
+
